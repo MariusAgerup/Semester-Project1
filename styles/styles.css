@@ -2,7 +2,7 @@
 html > * {font-family: "Roboto", sans-serif !important; letter-spacing: 1px;}
 html, body {height: 100%; margin: 0;}
 
-h1{font-size: 1.3rem;}
+h1{font-size: 1.8rem;}
 h2{font-size: 1.1rem;}
 p {font-size: 1rem;}
 
@@ -108,9 +108,10 @@ nav ul {
 
 
 /*############ SPECIAL EVENTS AND EXHIBITTION ############*/
+.card-special {padding: 15px;}
 
 /*############ VISIT ############*/
-
+.visit-time{width: 300px;}
 /*############ GET INVOLVED ############*/
 
 
