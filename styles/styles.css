@@ -165,7 +165,7 @@ nav ul {
 @media (min-width: 1000px) {
 
     /*** GLOBAL ***/
-    .body-card {width: 950px; min-height: 800px;}
+    .body-card          {width: 950px; min-height: 800px;}
 
     /*** HOME ***/
     .menu               {justify-content: center; max-width: 950px;}
