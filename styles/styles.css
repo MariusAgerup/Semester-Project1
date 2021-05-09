@@ -180,8 +180,8 @@ nav ul {
     .explore-txt        {max-width: 600px; margin: 10px;}
     
     /** VISIT **/
-    .visit-card {flex-direction: row; width: 830px;}
-    .visit-card-dual {margin: 5px 3px 5px 2px;} 
+    .visit-card         {flex-direction: row; width: 830px;}
+    .visit-card-dual    {margin: 5px 3px 5px 2px;} 
 
 }
 
