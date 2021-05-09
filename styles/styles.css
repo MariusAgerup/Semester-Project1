@@ -111,6 +111,8 @@ nav ul {
 
 /*############ VISIT ############*/
 .visit-card {display: flex; flex-direction: column;}
+.visit-card-dual {display: flex; flex-direction: column; padding:0px; margin: 5px 0px 5px 0px;}
+.visit-txt {max-width: 350px; margin: 10px;}
 .map img {max-width: 300px;}
 /*############ GET INVOLVED ############*/
 
@@ -120,67 +122,56 @@ nav ul {
 /*----- 600Px -----*/
 @media (min-width: 600px) {
     
-    header label {display: none;}
+    /*** GLOBAL ***/
+    header label    {display: none;}
+    nav             {display: flex; position: relative; align-items: center; top: 0px; box-shadow:none;}
+    nav ul          {display: flex;align-items: center;flex-direction: row;}
+    .body-card      {width: 580px;}
 
-    nav {
-        display: flex; 
-        position: relative;
-        align-items: center;
-        top: 0px;
-        box-shadow:none;
-    }
-
-    nav ul {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-    }
-    
-
-    .body-card {width: 580px;}
-
-    /*** Home ***/
-    .menu{justify-content: center;}
-    .container {max-width: 580px; padding: 0px;}
-    .card-img img {width: 100%; height: 100%;}
+    /*** HOME ***/
+    .menu           {justify-content: center;}
+    .container      {max-width: 580px; padding: 0px;}
+    .card-img img   {width: 100%; height: 100%;}
     
     
-    .card-dual  {flex-direction: row; width: 100%;}
-    .card-text-dual {max-width: 250px; align-items: center; margin: 10px; }
-    .card-img-dual img {max-width: 290px; height: 100%;}
+    .card-dual          {flex-direction: row; width: 100%;}
+    .card-text-dual     {max-width: 250px; align-items: center; margin: 10px; }
+    .card-img-dual img  {max-width: 290px; height: 100%;}
 
-    /** Explore **/
-    .explore-img img {max-width: 200px; height: 100%;}
-    .explore-txt {max-width: 250px; margin: 10px;}
+    /** EXPLORE **/
+    .explore-img img    {max-width: 200px; height: 100%;}
+    .explore-txt        {max-width: 250px; margin: 10px;}
     
     /** EXHIBITTION SPACES ***/
     .exhibition-txt {bottom: 50px; right: 10px; padding: 15px;}
     /** VISIT **/
-    .visit-card {width: 550px;}
-    .map img {max-width: 440px;}
+    .visit-txt      {max-width: 475px; margin: 10px;}
+    .visit-card     {width: 550px;}
+    .map img        {max-width: 440px;}
 }
 
 
 /*----- 1000Px -----*/
 @media (min-width: 1000px) {
 
-    /** Global **/  
+    /*** GLOBAL ***/
     .body-card {width: 950px;}
 
-    /*** Home ***/
-    .menu{justify-content: center; max-width: 950px;}
-    .container{max-width: 950px;}
-    .card-txt {margin: 5px 150px 5px 150px;}
-    .card-dual  {flex-direction: row;}
-    .card-text-dual {max-width: 350px; margin-left: auto; margin-right: auto; display: flex; align-items: center;}
-    .card-img-dual img {max-width: 475px; max-height: 100%;}
+    /*** HOME ***/
+    .menu               {justify-content: center; max-width: 950px;}
+    .container          {max-width: 950px;}
+    .card-txt           {margin: 5px 150px 5px 150px;}
+    .card-dual          {flex-direction: row;}
+    .card-text-dual     {max-width: 350px; margin-left: auto; margin-right: auto; display: flex; align-items: center;}
+    .card-img-dual img  {max-width: 475px; max-height: 100%;}
 
-   /** Explore **/
-    .explore-img img {max-width: 88%;}
-    .explore-txt {max-width: 600px; margin: 10px;}
-
-    /** Visit **/
-    .visit-card {flex-direction: row;}
+    /** EXPLORE **/
+    .explore-img img    {max-width: 88%;}
+    .explore-txt        {max-width: 600px; margin: 10px;}
+    
+    /** VISIT **/
+    .visit-card {flex-direction: row; width: 830px;}
+    .visit-card-dual {margin: 5px 3px 5px 2px;} 
 
 }
 
